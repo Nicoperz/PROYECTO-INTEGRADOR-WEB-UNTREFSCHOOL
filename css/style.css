@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'colibri';
+}
+
+.form-login{
+    width: 400px;
+    height: 340px;
+    background: #eff5f5;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    border-top: 4px solid #181823;
+    color: #181823;
+}
+
+
+
+#hero{
+    text-align: center;
+    width: 100%;
+}
+
+.logo{
+    width: 15%;
+}

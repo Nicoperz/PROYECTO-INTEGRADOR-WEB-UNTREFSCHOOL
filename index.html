@@ -4,98 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UNTREFSCHOOL</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="transparente">
-        <img src="./img/untref.png" alt="logo untref">
-        <nav>
-           <a href="#" class="activo">Inicio</a>
-           <a href="carreras.html">Ventas</a>
-           <a href="#">Campus</a>
-           <a href="contacto.html">Contacto</a>
-        </nav>
+    <header>
+        <img class="logo" src="./img/untref.png" alt="logo">
+        <div>
+            <nav>  
+                <a href="#somos">Quienes Somos</a>
+                <a href="#porque">Por Que Elegirnos?</a>
+                <a href="#propuestas">Propuestas Educativas</a>
+                <a href="#noticias">Ultimas Noticias</a>
+                <a href="#contacto">Contacto</a>    
+            </nav>
+        </div>
     </header>
-    <div class="hero">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div class="hero-logo">
-               <img src="./img/untref.png" alt="logo untref">
-          </div>
-          <a href="#pr" class="hero down">
-            <img src="" alt="felcha abajo">
-          </a>
-    </div>
-
-    <!-- Menu Hamburguesa-->
-    <div id="burguer">
-        <div class="barra superior"></div>
-        <div class="barra media"></div>
-        <div class="barra inferior"></div>
-    </div>
-    <div class="menu">
-        <nav>
-            <a href="#">Inicio</a>
-            <hr>
-            <a href="carreras.html">Carerras</a>
-            <hr>
-            <a href="#">Campus</a>
-            <hr>
-            <a href="contacto.html">Contacto</a>
-        </nav>
-        <p class="copy">&copy;  Nicoperz</p>
-    </div>
-    <!--Fin menu hamburguesa-->
-
-    <div class="fila primera">
-        <span id="pr">&nbsp;</span>
-        <div class="col-66">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ipsum placeat sapiente ea laboriosam? Similique consequuntur quo voluptatum. Necessitatibus quis molestias iste ullam commodi explicabo aliquam repudiandae earum, error impedit!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint libero nostrum voluptas quam voluptate laudantium voluptates nihil necessitatibus, esse corporis fugiat deserunt reiciendis nobis velit tenetur autem ut expedita facere!</p>
-        </div>
-        <div class="col-33">
-            <img src="" alt="imagen escuela">
-        </div>
-        <div class="fila">
-             <div class="col-50">
-                <img src="" alt="imagen escuela 2">
-             </div>
-             <div class="col-50">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit reiciendis ab delectus assumenda ex inventore alias minus doloremque beatae omnis qui autem dolores, ipsum nesciunt quo veniam temporibus eos et.</p>
-             </div>
-        </div>
-    </div>
-    <div class="fila parallax">
-        <div class="col-100"></div>
-        <p>Lorem ipsum dolor sit amet.</p>
-    </div>
-    <div class="fila">
-        <div class="col-50 caja-nav flex-colum-center">
-            <img src="" alt="imagen carreras">
-            <a href="carreras.html">CARRERAS</a>
-        </div>
-        <div class="col-50 caja-nav flex-colum-center">
-            <img src="" alt="imagen campus">
-            <a href="#">CAMPUS</a>
-        </div>
-    </div>
-    <div class="fila">
-        <div class="col-100 flex-colum-center">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi dolorum vitae laudantium quisquam corporis!</p>
-            <form class="contacto">
-                <div class="fila">
-                    <input class="usuario" type="text" placeholder="Nombre y apellido">
-                </div>
-                <div class="fila">
-                     <input class="email" type="text" placeholder="Correo electronico">
-                </div>
-                <div class="fila flex-end">
-                     <button type="submit">Enviar</button>
-                </div>              
-            </form>
-        </div>
-    </div>
     
+
+    <section id="hero">
+            <h1>UNTREF <br>SCHOOL</h1>
+    </section>
+    <section class="form-login">
+        <h5>Ingresar</h5>
+        <input class="controls" type="text" name="usuario" value=" " placeholder="Usuario">
+        <input class="controls" type="password" name="contraseña" value="" placeholder="Contraseña">
+        <input class="buttons" type="submit" name="" value="Ingresar">
+        <p><a href="#">¿Olvidaste tu Contraseña?</a></p>
+    </section>
+
+    <section id="somos">
+        <div class="container">
+            <div class="img-container"> <img src="./img/escuela.jpg" alt=""></div>
+            <div class="texto">
+
+                <h2>Somos <span class="color-acento">UNTREFSCHOOL</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id accusamus explicabo nemo. Veniam asperiores nam quibusdam! Vel iure reiciendis dolores, deleniti laboriosam ipsum vero vitae nostrum eum, perspiciatis nihil cum.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="porque">
+        <div class="container">
+             <div class="img-container"> <img src="./img/escuela2.jpg" alt=""></div>
+             <div class="texto">
+
+                <h2>Por que <span>Elegirnos?</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus eaque deleniti similique assumenda obcaecati voluptatum eum corrupti minima odit molestias velit vitae, quae fuga, sapiente sit in exercitationem et veniam.</p>
+             </div>
+        </div>
+    </section>
+
+    <section id="propuestas">
+        <div class="container">
+            <h2>Nuestras Propuestas</h2>
+            <div class="programas">
+                 <div class="carta">
+                    <h3>Programador Front-end</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem neque omnis eaque culpa soluta, fugit atque repudiandae harum repellendus! Asperiores, nisi expedita porro illum possimus rerum sint? Iste, similique placeat?</p>
+                    <button>+ Info</button>
+                 </div>
+                 <div class="carta">
+                    <h3>Programador Full-stack</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem neque omnis eaque culpa soluta, fugit atque repudiandae harum repellendus! Asperiores, nisi expedita porro illum possimus rerum sint? Iste, similique placeat?</p>
+                    <button>+ Info</button>
+                 </div>
+                 <div class="carta">
+                    <h3>Programador Python</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem neque omnis eaque culpa soluta, fugit atque repudiandae harum repellendus! Asperiores, nisi expedita porro illum possimus rerum sint? Iste, similique placeat?</p>
+                    <button>+ Info</button>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="noticia">
+        <div class="container">
+
+            <h3>Ultimas <span>Noticias</span></h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, iusto. Eaque modi maiores sint sunt dolorem est assumenda! Omnis quis velit corrupti porro eveniet in, possimus necessitatibus veritatis nesciunt nobis modi cupiditate sapiente ab iste facilis maiores. Debitis laudantium quibusdam cumque fugit dolor rerum exercitationem. Ipsam, corporis laudantium quibusdam id blanditiis praesentium labore culpa esse nemo excepturi dolor earum asperiores. Ex sapiente excepturi vitae dolore quos blanditiis sint enim dicta cum, explicabo aut repellendus perferendis veritatis exercitationem ducimus reprehenderit nobis cumque incidunt repellat! Voluptate nihil expedita dolor, iste quae dolorum optio unde eum, facilis aliquid reprehenderit error? Distinctio, tempora maxime.</p>
+        </div>
+    </section>
+
+    <section id="contacto">
+
+    </section>
+
+
 </body>
 </html>
