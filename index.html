@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UNTREFSCHOOL</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img class="logo" src="./img/untref.png" alt="logo">
-        <div>
+        <div class="container">
+            <p  class="logo">UntrefSchool</p>
             <nav>  
                 <a href="#somos">Quienes Somos</a>
                 <a href="#porque">Por Que Elegirnos?</a>
@@ -23,25 +26,26 @@
 
     <section id="hero">
             <h1>UNTREF <br>SCHOOL</h1>
+            <button>INSCRIPCION</button>
     </section>
     
     <section id="somos">
         <div class="container">
-            <div class="img-container"> <img src="./img/escuela.jpg" alt=""></div>
+            <div class="img-container"></div>
             <div class="texto">
 
                 <h2>Somos <span class="color-acento">UNTREFSCHOOL</span></h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id accusamus explicabo nemo. Veniam asperiores nam quibusdam! Vel iure reiciendis dolores, deleniti laboriosam ipsum vero vitae nostrum eum, perspiciatis nihil cum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum suscipit expedita, accusantium ut ullam saepe perferendis neque exercitationem quas voluptatibus eveniet repellat nemo non libero harum inventore earum ratione quos iure voluptate minus quisquam corporis tempora asperiores! At dolore facere doloremque laborum. In ullam amet consequuntur architecto obcaecati fugiat harum?</p>
             </div>
         </div>
     </section>
 
     <section id="porque">
         <div class="container">
-             <div class="img-container"> <img src="./img/escuela2.jpg" alt=""></div>
+            <div class="img-container-45"></div>
              <div class="texto">
 
-                <h2>Por que <span>Elegirnos?</span></h2>
+                <h2>Por que <span class="color-acento">ELEGIRNOS?</span></h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus eaque deleniti similique assumenda obcaecati voluptatum eum corrupti minima odit molestias velit vitae, quae fuga, sapiente sit in exercitationem et veniam.</p>
              </div>
         </div>
@@ -70,17 +74,40 @@
         </div>
     </section>
 
-    <section id="noticia">
+    <section id="noticias">
         <div class="container">
 
-            <h3>Ultimas <span>Noticias</span></h3>
+            <h3>Ultimas <span class="color-acento">NOTICIAS</span></h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, iusto. Eaque modi maiores sint sunt dolorem est assumenda! Omnis quis velit corrupti porro eveniet in, possimus necessitatibus veritatis nesciunt nobis modi cupiditate sapiente ab iste facilis maiores. Debitis laudantium quibusdam cumque fugit dolor rerum exercitationem. Ipsam, corporis laudantium quibusdam id blanditiis praesentium labore culpa esse nemo excepturi dolor earum asperiores. Ex sapiente excepturi vitae dolore quos blanditiis sint enim dicta cum, explicabo aut repellendus perferendis veritatis exercitationem ducimus reprehenderit nobis cumque incidunt repellat! Voluptate nihil expedita dolor, iste quae dolorum optio unde eum, facilis aliquid reprehenderit error? Distinctio, tempora maxime.</p>
         </div>
     </section>
 
-    <section id="contacto">
+    <footer id="contacto">
+        <section class="footer__contenedor">
+            <section class="footer__redes">
+                <h2 class="footer__redes-titulo">Redes Sociales</h2>
+                <ul class="footer__lista">
+                    <li><a href="https://www.facebook.com/" class="footer__enlace" target="_blank"><h5 class="footer__nombres">Facebook</h5></a></li>
+                    <li><a href="https://www.instagram.com/" class="footer__enlace" target="_blank"><h5 class="footer__nombres">Instagram</h5></a></li>
+                    <li><a href="https://www.twitter.com" class="footer__enlace" target="_blank"><h5 class="footer__nombres">Twitter</h5></a></li>
+                </ul>
+            </section>
+            <section class="footer__ubicacion">
+                <h2 class="footer__ubicacion-titulo">UnTrefSchool</h2>
+                <iframe class="footer__iframe row" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1041221060786!2d-58.52819710000001!3d-34.6015285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7c0fa8ea61b%3A0xc39ce2c5b55bb74!2sUniversidad%20Nacional%20de%20Tres%20de%20Febrero%20(UNTREF)%20-%20Rectorado!5e0!3m2!1ses-419!2sar!4v1689209307028!5m2!1ses-419!2sar" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <section class="footer__contacto">
+                <h2 class="footer__contacto-titulo">Contacto</h2>
+                <ul class="footer__nav">
+                    <li><a href="malito:UntrefSchool@gmail.com?subject=Asunto&body=Cuerpo del correo electrónico" target="_blank">Untrefschool@gmail.com</a></li>
+                    <li><a href="tel:+541144444444" target="_blank">Tel: 011-456-78901</a></li>
+                    <li><a href="htpps://wa.me/541144444444" target="_blank">WhatsApp: 011-456-78901</a></li>
+                </ul>
+            </section>
+        </section>
 
-    </section>
+        <p class="footer__copyright text-center">UnTrefSchool &copy;</p>
+    </footer>
 
 
 </body>
